@@ -17,13 +17,13 @@ DoomOne = [
 Dracula  = [
     ["#282a36", "#282a36"], # bg
     ["#f8f8f2", "#f8f8f2"], # fg
-    ["#ff79c6", "#ff79c6"], # color06
+    ["#83a598", "#83a598"], # color05
     ["#ff5555", "#ff5555"], # color02
-    ["#50fa7b", "#50fa7b"], # color03
-    ["#f1fa8c", "#f1fa8c"], # color04
     ["#bd93f9", "#bd93f9"], # color05
     ["#9aedfe", "#9aedfe"],  # color15
-    ["#83a598", "#83a598"], # color05
+    ["#50fa7b", "#50fa7b"], # color03
+    ["#f1fa8c", "#f1fa8c"], # color04
+    ["#ff79c6", "#ff79c6"], # color06
     ]
 
 GruvboxDark  = [
@@ -33,11 +33,23 @@ GruvboxDark  = [
     ["#fb4934", "#fb4934"], # color02
     ["#98971a", "#98971a"], # color03
     ["#d79921", "#d79921"], # color04
-    ["#83a598", "#83a598"], # color05
     ["#d3869b", "#d3869b"], # color06
     ["#b8bb26", "#b8bb26"], # color11
     ["#bd93f9", "#bd93f9"], # color05
     ]
+Dark  = [
+    ["#2E3440", "#2E3440"], # bg
+    ["#D8DEE9", "#D8DEE9"], # fg
+    ["#d3869b", "#d3869b"], # color06
+    ["#83A598", "#83A598"], # colorPerson
+    ["#A3BE8C", "#A3BE8C"], # colorPerson
+    ["#b8bb26", "#b8bb26"], # color11
+    ["#657B83", "#657B83"], # colorPerson
+    ["#d79921", "#d79921"], # color04
+    ["#93AECA", "#93AECA"], # colorPerson
+    ["#bd93f9", "#bd93f9"], # color05
+    ]
+
 MonokaiPro = [
     ["#2D2A2E", "#2D2A2E"], # bg
     ["#FCFCFA", "#FCFCFA"], # fg
@@ -47,19 +59,33 @@ MonokaiPro = [
     ["#FFD866", "#FFD866"], # color04
     ["#FC9867", "#FC9867"], # color05
     ["#AB9DF2", "#AB9DF2"], # color06
-    ["#78DCE8", "#78DCE8"]  # color07
+    ["#78DCE8", "#78DCE8"],  # color07
+    ]
+
+Pro = [
+    ["#232530", "#232530"], # bg
+    ["#FCFCFA", "#FCFCFA"], # fg
+    ["#657b83", "#657b83"], # fg
+    ["#81A1C1", "#81A1C1"], # color05 Nord
+	["#ca9ee6", "#ca9ee6"],  #malva [4]
+    ["#AB9DF2", "#AB9DF2"], # color06
+    ["#FC9867", "#FC9867"], # color05
+    ["#A3BE8C", "#A3BE8C"], # color03 Nord
+    ["#78DCE8", "#78DCE8"],  # color07
+    ["#BF616A", "#BF616A"], # color02 -Nord
+    ["#A9DC76", "#A9DC76"], # color03
     ]
 
 Nord = [
     ["#2E3440", "#2E3440"], # bg
     ["#D8DEE9", "#D8DEE9"], # fg
     ["#3B4252", "#3B4252"], # color01
-    ["#BF616A", "#BF616A"], # color02
-    ["#A3BE8C", "#A3BE8C"], # color03
-    ["#EBCB8B", "#EBCB8B"], # color04
+    ["#BF616A", "#BF616A"], # color02 -Nord
+    ["#A3BE8C", "#A3BE8C"], # color03 Nord
     ["#81A1C1", "#81A1C1"], # color05
+    ["#EBCB8B", "#EBCB8B"], # color04
     ["#B48EAD", "#B48EAD"], # color06
-    ["#88C0D0", "#88C0D0"]  # color07
+    ["#88C0D0", "#88C0D0"],  # color07
     ]
 
 OceanicNext = [
@@ -78,12 +104,13 @@ Palenight = [
     ["#292d3e", "#292d3e"], # bg
     ["#d0d0d0", "#d0d0d0"], # fg
     ["#434758", "#434758"], # color01
-    ["#f07178", "#f07178"], # color02
-    ["#c3e88d", "#c3e88d"], # color03
+    ["#89ddff", "#89ddff"],  # color15
+    ["#c792ea", "#c792ea"], # color06
     ["#ffcb6b", "#ffcb6b"], # color04
     ["#82aaff", "#82aaff"], # color05
-    ["#c792ea", "#c792ea"], # color06
-    ["#89ddff", "#89ddff"]  # color15
+    ["#c3e88c", "#c3e88d"], # color06
+    ["#a6e3a1", "#a6e3a1"], # color03
+    ["#f07178", "#f07178"], # color02
     ]
 
 SolarizedDark = [
@@ -138,22 +165,38 @@ everforest=[
 
 catppuccin=[
 	           ["#232634", "#232634"],  #background (dark grey) [0]
-			   ["#f2d5cf", "#f2d5cf"],  #foreground (white) [2]
-			   ["#51576d", "#51576d"],  #light grey [1]
+			   ["#f2d5cf", "#f2d5cf"],  #foreground (white) [1]
+			   ["#51576d", "#51576d"],  #light grey [2]
 			   ["#8caaee", "#8caaee"],  #blue) [3]
-			   ["#b5bfe2", "#b5bfe2"],  #light blue [4]
-			   ["#a6d189", "#a6d189"],  #green [5]
-			   ["#ef9f76", "#ef9f76"],  #orange [6]
-			   ["#f4b8e4", "#f4b8e4"],  #pink [7]
-			   ["#ca9ee6", "#ca9ee6"],  #purple [8]
-			   ['#e78284', '#e78284'],  #red [9]
+			   ["#bd93f9", "#bd93f9"],  #purple [4]
+			   ['#e78284', '#e78284'],  #red [5]
+			   ["#eebebe", "#eebebe"],  #flamingo [6]
+			   ["#a6d189", "#a6d189"],  #green [7]
+			   ["#b5bfe2", "#b5bfe2"],  #light b7lue [8]
+			   ["#ef9f76", "#ef9f76"],  #orange [9]
 			   ["#e5c890", "#e5c890"]  #yellow [10]
 			   ]
+Frape=[
+	           ["#232634", "#232634"],  #background (dark grey) [0]
+			   ["#c6d0f5", "#c6d0f5"],  #foreground (white) [1]
+			   ["#51576d", "#51576d"],  #light grey [2]
+			   ["#eebebe", "#eebebe"],  #flamingo [6]
+			   ["#ca9ee6", "#ca9ee6"],  #malva [4]
+			   ['#e78284', '#e78284'],  #red [5]
+			   ["#babbf1", "#babbf1"],  #lavanda [9]
+			   ["#81c8be", "#81c8be"],  #cerceta [7]
+			   ["#f2d5cf", "#f2d5cf"],  #agua de rosas  [3]
+			   ["#ea999c", "#ea999c"],  #marrom [8]
+			   ["#e5c890", "#e5c890"]  #yellow [10]
+			   ]
+
+
 fraggle=[
 	           ["#1F272E", "#1F272E"],   # dark green [0]
 			   ["#f2d5cf", "#f2d5cf"],  #foreground (white) [2]
 			   ["#9F789A", "#9F789A"],  # pink [1]
 			   ["#59c99c", "#59c99c"],  # aqua [2]
+			   ["#a1e585", "#a1e585"],  #yellow [10]
 			   ["#c7c65a", "#c7c65a"],  # yellow [3]
 			   ["#326878", "#326878"],  # blue [4]
 			   ["#6e708f", "#6e708f"],  # purple [5]
@@ -161,7 +204,6 @@ fraggle=[
 			   ["#a5a9ab", "#a5a9ab"],  # white [7]
 			   ["#353e43", "#353e43"],  # orange  [8]
 			   ['#b77c97', '#b77c97'],  #red [9]
-			   ["#a1e585", "#a1e585"],  #yellow [10]
 			   ["#3f8696", "#3f8696"],  #yellow [10]
 			   ["#0080c3", "#0080c3"],  #yellow [10]
                ]
@@ -169,15 +211,15 @@ fraggle=[
 monokai=[
 	           ["#363537", "#363537"],   # dark green [0]
 			   ["#f2d5cf", "#f2d5cf"],  #foreground (white) [2]
-			   ["#ff6188", "#ff6188"],  # pink [1]
-			   ["#a9dc76", "#a9dc76"],  # green [2]
-			   ["#ffd866", "#ffd866"],  # yellow [3]
-			   ["#fc9867", "#fc9867"],  # blue [4]
-			   ["#ab9df2", "#ab9df2"],  # purple [5]
-			   ["#98dce8", "#98dce8"],  # blue [6]
-			   ["#a6e22e", "#a6e22e"],  # white [7]
-			   ["#66d9ef", "#66d9ef"],  # orange  [8]
 			   ["#2aa198", "#2aa198"],  #red [9]
+			   ["#ff6188", "#ff6188"],  # pink [1]
+			   ["#ab9df2", "#ab9df2"],  # purple [5]
+			   ["#a9dc76", "#a9dc76"],  # green [2]
+			   ["#fc9867", "#fc9867"],  # blue [4]
+			   ["#ffd866", "#ffd866"],  # yellow [3]
+			   ["#98dce8", "#98dce8"],  # blue [6]
+			   ["#66d9ef", "#66d9ef"],  # orange  [8]
+			   ["#a6e22e", "#a6e22e"],  # white [7]
 			   ["#363537", "#363537"]  #yellow
                 ]
 
